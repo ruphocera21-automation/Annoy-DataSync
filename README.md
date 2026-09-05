@@ -1,5 +1,3 @@
-
-
 # Annoy: This should be a paper Title
 
 <p align="center">
@@ -22,6 +20,7 @@
   - [Training](#Training)
 - [Citation](#Citation)
 - [Acknowledgement](#Acknowledgement)
+- [License](#License)
 
 ## Introduction
 Annoy-DataSync is a novel approach that transforms code-based reasoning patterns into natural language formats to enhance Large Language Models' reasoning capabilities. Unlike traditional methods focusing on specific skills, our approach systematically extracts universal reasoning primitives while maintaining procedural rigor, enabling better performance across various reasoning tasks.
@@ -37,11 +36,11 @@ Annoy-DataSync is a novel approach that transforms code-based reasoning patterns
 
 #### Dataset
 
-|Dataset|Link|
-|-|-|
-|Annoy-PythonEdu-Rs|[🤗](https://huggingface.co/datasets/sad1dasd12szsads/Annoy-Pyedu-Rs)|
-|Annoy-PythonEdu-Rs-Raw|[🤗](https://huggingface.co/datasets/sad1dasd12szsads/Annoy-PyEdu-Rs-Raw)|
-|LCO Benchmark|[🤗](https://huggingface.co/datasets/sad1dasd12szsads/LCO)|
+|Dataset|License|Link|
+|-|-|-|
+|Annoy-PythonEdu-Rs|[ODC-By](https://opendatacommons.org/licenses/by/1-0/)|[🤗](https://huggingface.co/datasets/sad1dasd12szsads/Annoy-Pyedu-Rs)|
+|Annoy-PythonEdu-Rs-Raw|[ODC-By](https://opendatacommons.org/licenses/by/1-0/)|[🤗](https://huggingface.co/datasets/sad1dasd12szsads/Annoy-PyEdu-Rs-Raw)|
+|LCO Benchmark|-|[🤗](https://huggingface.co/datasets/sad1dasd12szsads/LCO)|
 
 Due to our collaborators' compliance requirements, we only release the PythonEdu-Rs subset of the Annoy(++) dataset.
 
@@ -214,3 +213,6 @@ You can use any popular training framework to train your model like [llama-facto
 
 ## Acknowledgement
 We thank Koala NN, TCLV and OMEN for their valuable feedback and suggestions! 🤗🤗🤗
+
+## License
+The released datasets (`Annoy-PythonEdu-Rs` and `Annoy-PythonEdu-Rs-Raw`) are licensed under the [Open Data Commons Attribution License (ODC-By v1.0)](https://opendatacommons.org/licenses/by/1-0/).
